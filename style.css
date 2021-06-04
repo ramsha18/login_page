@@ -1,0 +1,52 @@
+.main{
+    background-color: rgb(84, 165, 245);
+    width: 100%;
+    height: 100%;
+}
+i{
+    color:white;
+}
+.log{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+label,h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    outline: none;
+    padding-left: 10px;
+    border:none;
+    height: 40px;
+    width: 205px;
+}
+#email{
+    border-radius: 5px 5px 0px 0px;  
+}
+#pass{
+    border-top: 1px solid silver;
+    border-radius: 0px 0px 5px 5px;
+}
+button{
+    color: white;
+    background-color:  rgb(11, 117, 223);
+    height: 40px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+}
+button:hover{
+    background-color:  rgb(5, 76, 148);
+    cursor: pointer;
+}
+a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
